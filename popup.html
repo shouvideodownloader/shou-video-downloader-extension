@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  body { width: 300px; margin: 0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: #f8fafc; color: #0f172a; }
+  .head { background: #1d4ed8; color: #fff; padding: 14px 16px; display: flex; align-items: center; gap: 10px; }
+  .head img { width: 28px; height: 28px; border-radius: 6px; background: #fff; }
+  .head h1 { font-size: 15px; margin: 0; }
+  .body { padding: 14px 16px; }
+  .body p { font-size: 12px; color: #475569; margin: 0 0 8px; }
+  input { width: 100%; box-sizing: border-box; padding: 9px 10px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 13px; margin-bottom: 10px; }
+  button { width: 100%; padding: 10px; border: 0; border-radius: 8px; background: #1d4ed8; color: #fff; font-size: 14px; font-weight: 600; cursor: pointer; }
+  button:hover { background: #1e40af; }
+  .foot { text-align: center; padding: 0 16px 14px; font-size: 11px; color: #94a3b8; }
+  .foot a { color: #1d4ed8; text-decoration: none; }
+</style>
+</head>
+<body>
+  <div class="head">
+    <img src="icons/icon48.png" alt="Shou">
+    <h1>Shou Video Downloader</h1>
+  </div>
+  <div class="body">
+    <p>Paste a Kuaishou or Kwai video link, then hit Download.</p>
+    <input id="url" type="url" placeholder="https://www.kuaishou.com/short-video/…">
+    <button id="go">Download</button>
+  </div>
+  <div class="foot">Powered by <a href="https://shouvideodownloader.com/" target="_blank" rel="noopener">shouvideodownloader.com</a></div>
+  <script src="popup.js"></script>
+</body>
+</html>
